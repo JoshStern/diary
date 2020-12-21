@@ -1,0 +1,7 @@
+#compdef _diary diary
+
+function _diary {
+    _arguments \
+        '::optional arg:((init\:"initialize diary repo"))' \
+        ':diary repo path:_path_files -/'
+}
